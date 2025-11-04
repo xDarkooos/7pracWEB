@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singup form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="first" id="firstBlock">
+        <div class="text">
+            <img src="assets/philip-oroni-7rMD7zh5SKo-unsplash.jpg" alt="mail" class="img1">
+            <h1>Subscribe to our Newsletter</h1>
+            <p>Join thousands getting emails in their inbox.</p>
+        </div>
+        <div class="input">
+            <input type="email" id="emailFirst" placeholder="email@example.com">
+        </div>
+        <div class="button">
+            <button id="subscribeFirst">Subscribe</button>
+        </div>
+    </div>
+
+    <div class="success hidden" id="successBlock">
+        <div class="text">
+            <img src="assets/Icon.png" alt="mail" class="imgS"> <br>
+            <p>Your subscription has been placed for <span id="userEmail"></span></p>
+        </div>
+        <div class="button">
+            <button id="thanksBtn" class="buttonS">Thanks</button>
+        </div>
+    </div>
+
+    <div class="error hidden" id="errorBlock">
+        <div class="text">
+            <img src="assets/philip-oroni-7rMD7zh5SKo-unsplash.jpg" alt="mail">
+            <h1>Subscribe to our Newsletter</h1>
+            <p>Join thousands getting emails in their inbox.</p>
+        </div>
+        <div class="input">
+            <input type="email" id="emailError" placeholder="email@example.com">
+        </div>
+        <div class="button">
+            <p class="red">Please enter the valid email</p>
+            <button id="subscribeError">Subscribe</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>

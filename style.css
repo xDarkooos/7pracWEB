@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Delius&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+ body{
+    background-color: #fd96ab;
+    display: flex;
+}
+
+.first {
+    width: 495px;
+    height: 520px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 5px 15px #D8D8D8;
+    border-radius: 16px;
+    padding: 32px;
+    margin: 32px;
+}
+
+img {
+    width: 100%;
+    height: 190px;
+    border-radius: 12px;
+}
+
+        h1 {
+            text-align: center;
+            margin-top: 32px;
+        }
+
+        p {
+            text-align: center;
+            color: #666;
+        }
+
+        input[type="email"] {
+            width: 100%;
+            padding: 16px 20px;
+            border: 2px solid #ddd;
+            border-radius: 12px;
+            font-size: 16px;
+            box-sizing: border-box;
+            margin-top: 20px;
+        }
+
+        input[type="email"]:focus {
+            outline: none;
+            border-color: #000;
+        }
+
+        button {
+            width: 248px;
+            height: 48px;
+            display: block;
+            margin: 20px auto 0;
+            padding: 16px 48px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #333;
+        }
+
+        .success {
+            width: 510px;
+            height: 328px;
+            background-color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 10px 5px 15px #D8D8D8;
+            border-radius: 16px;
+            padding: 32px;
+            margin: 32px;
+        }
+
+        img.imgS {
+            width: 106px;
+            height: 106px;
+            margin: auto;
+            display: block
+        }
+
+        .error{
+            width: 495px;
+            height: 520px;
+            background-color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 10px 5px 15px #D8D8D8;
+            border-radius: 16px;
+            padding: 32px;
+            margin: 32px;
+        }
+
+        .red{
+            text-align: center;
+            color: #FF8B64;
+        }
+
+        /* Клас для приховування */
+        .hidden {
+            display: none !important;
+        }
